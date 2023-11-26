@@ -1,0 +1,242 @@
+@import url("https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Montserrat:wght@600&family=Raleway&family=Roboto:ital,wght@1,500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: monospace;
+}
+
+header {
+  padding: 20px;
+  background-color: #10898d;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+nav > ul {
+  display: flex;
+}
+nav > ul > li {
+  display: flex;
+  text-decoration: none;
+}
+
+.a {
+  text-decoration: none;
+  color: rgb(45, 45, 43);
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.main {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  color: white;
+  background-color: #ffb6c1;
+}
+
+.left {
+  width: 50%;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+  font-size: 25px;
+}
+
+.left > h1 {
+  margin-top: 35%;
+  margin-bottom: 10px;
+}
+.left > h4 {
+  margin-bottom: 10px;
+}
+.left > h2 {
+  margin-bottom: 10px;
+}
+.left > button {
+  margin-top: 20px;
+  display: inline;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  color: black;
+  background-color: #3fe0c0;
+  border-radius: 5px;
+  transition: background-color 0.3s, color0.3s;
+}
+.left > button > a {
+  text-decoration: none;
+}
+
+.right {
+  width: 50%;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.right > img {
+  border-radius: 50%;
+  overflow: hidden;
+  height: 60%;
+  width: 60%;
+  align-items: center;
+  justify-content: center;
+}
+/* Page 1 */
+#page1 {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  color: rgb(111, 111, 111);
+  background-color: #3fe0c0;
+}
+
+#page1 > .right {
+  display: block;
+  align-items: center;
+  justify-content: space-between;
+  width: 50%;
+  margin-top: 20%;
+}
+
+#page1 > .right > .cm {
+  display: flex;
+  padding: 10px;
+  border-top: 3px solid #10898d;
+  margin-bottom: 10px;
+}
+
+#page1 > .right > .dd {
+  display: flex;
+  padding: 10px;
+  border-top: 3px solid #10898d;
+  margin-bottom: 10px;
+}
+#page1 > .right > .ml {
+  display: flex;
+  padding: 10px;
+  border-top: 3px solid #10898d;
+}
+
+#page1 > .left {
+  width: 50%;
+}
+
+#page1 > .left > h1 {
+  margin-bottom: 20px;
+}
+
+/* Page 2 */
+
+#page2 {
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  background-color: #cbc3e3;
+}
+
+.title {
+  text-align: center;
+  padding: 10px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15%;
+}
+
+/* Common styles for each div */
+.one,
+.two,
+.three,
+.four {
+  flex: 1;
+  box-sizing: border-box;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+/* Styles for images within each div */
+.one > img,
+.two > img,
+.three > img,
+.four > img {
+  height: 250px;
+  width: 250px;
+  padding: 25px;
+  margin: 10px;
+}
+
+/* Styles for h4 within each div */
+.one > h4,
+.two > h4,
+.three > h4,
+.four > h4 {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* Page 3 */
+#page3 {
+  height: 100vh;
+  width: 100vw;
+  background-color: #add8e6;
+}
+
+#page3 > .container3 > h1 {
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 100px;
+  font-style: bold;
+}
+#page3 > .container3 > h2 {
+  text-align: center;
+  margin-bottom: 100px;
+  font-weight: bolder;
+  font-weight: 900;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+#page3 > .second3 > h1 {
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+#page3 > .second3 > .imge {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#page3 > .second3 > .imge > img {
+  display: flex;
+  height: 30px;
+  width: 30px;
+  margin: 10px;
+}
+
+footer {
+  background-color: #add8e6;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
